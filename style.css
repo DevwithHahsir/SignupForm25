@@ -1,0 +1,165 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header
+{
+    height: 4rem;
+    padding: 2rem;
+    font-size: larger;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(190, 188, 189);
+}
+form
+{
+   
+    height: 89.5vh;
+}
+select
+{
+    width: 40rem;
+    height: 2rem;
+    border-radius: 7px;
+    padding: 0.3rem;
+}
+
+label
+{
+    margin-bottom: 0.5rem;
+    resize: vertical;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.wrap
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.row1
+{
+   
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+}
+.row2 , .row3 , .row5 , .row6
+{
+    
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;   
+}
+
+.row2 input{
+    width: 20rem;
+    padding: 1rem;
+    height: 0rem;
+    border-radius: 7px;
+    border: 1px solid;
+    outline: none;
+}
+.row3 input{
+    width: 20rem;
+    padding: 1rem;
+    height: 0rem;
+    border-radius: 7px;
+    border: 1px solid;
+    outline: none;
+}
+
+.row4
+{
+    
+    margin-left: 2rem;
+}
+
+.row4 textarea
+{
+    width:50.5%;
+    height: 4rem;
+    border-radius: 7px;
+    padding: 0.7rem;
+}
+
+.row5 select
+{
+    width: 20rem;
+}
+
+.row5 input
+{
+    width: 20rem;
+    padding: 1rem;
+    height: 0rem;
+    border-radius: 7px;
+    border: 1px solid;
+    outline: none;
+}
+
+.row6 input
+{
+    width: 20rem;
+    padding: 1rem;
+    height: 0rem;
+    border-radius: 7px;
+    border: 1px solid;
+    outline: none;
+}
+::placeholder
+{
+    font-size:medium;
+    font-family:'Times New Roman', Times, serif;
+}
+
+select
+{
+    border: 1px solid rgb(76, 76, 76);
+    outline: none;
+}
+
+input
+{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem;
+    height: 2rem;
+    align-items: center;
+}
+
+.btn button
+{
+    border-radius: 7px;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    background-color: rgb(190, 188, 189);
+}
+
+button:hover
+{
+    background-color:grey;
+}
